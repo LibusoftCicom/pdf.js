@@ -1947,7 +1947,7 @@ function packageBowerJson() {
   var npmManifest = {
     name: DIST_NAME,
     version: VERSION,
-    main: "build/pdf.js",
+    main: "es5/build/pdf.js", // we are using es5 scripts
     types: "types/pdf.d.ts",
     description: DIST_DESCRIPTION,
     keywords: DIST_KEYWORDS,
